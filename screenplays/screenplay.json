@@ -1,0 +1,22 @@
+{
+    "metadata": {
+        "title": "A single-scene screenplay"
+    },
+
+    "sources": [
+        {
+            "id": "1",
+            "type": "iiifManifest",
+            "manifest": "https://crkn-rcdr.github.io/crkn-iiif-static/iiif/exhibit1.json"
+        }
+    ],
+    
+    "scenes": [
+        {
+            "source": "1",
+            "caption": {
+                "text": "This is a map made by John Speed"
+            }
+        }
+    ]
+}
