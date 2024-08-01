@@ -4,9 +4,14 @@
       <title>CRKN Static IIIF</title>
       <link rel="stylesheet" type="text/css" href="https://crkn-rcdr.github.io/crkn-iiif-static/assets/annona.css"> 
       <script src="https://crkn-rcdr.github.io/crkn-iiif-static/assets/annona.js"></script>
+      <script src="https://www.unpkg.com/@samvera/clover-iiif@latest/dist/web-components/index.umd.js"></script>
+ 
+    
    </head>
    <body>
         <h1>CRKN Static IIIF</h1>
+        <clover-viewer
+            id="https://crkn-rcdr.github.io/crkn-iiif-static/iiif/exhibit1.json" />
         <iiif-storyboard url="https://crkn-rcdr.github.io/crkn-iiif-static/iiif/exhibit1.json" styling="overlaynext: true"></iiif-storyboard>
    </body>
 </html>
