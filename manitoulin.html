@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <title>Manitoulin - CRKN Exhibit</title>
+        <style>
+            body {
+                margin:0;
+                padding:0;
+            }
+        </style>
+        <!-- polyfill for Web Components; you can omit if you don't want to support older browsers -->
+        <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+            
+        <!-- you can omit the Vue import if Vue is already present -->
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+
+        <script src="https://geoservices.leventhalmap.org/panel-truck/webcomponent-0.2/panel-truck.min.js"></script>
+   </head>
+   <body>
+        <div style="position:fixed;top:-1rem;bottom:1rem;left:0;right:0;"><!-- the panel-truck component will take the size of its parent element -->
+            <panel-truck screenplay-src="https://crkn-rcdr.github.io/crkn-iiif-static/screenplays/screenplay.json"></panel-truck>
+        </div>
+    </body>
+</html>
