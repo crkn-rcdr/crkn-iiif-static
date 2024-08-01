@@ -1,21 +1,33 @@
 {
     "metadata": {
-        "title": "A single-scene screenplay"
+        "title": "Manitoulin"
     },
 
     "sources": [
         {
-            "id": "1",
-            "type": "iiifManifest",
-            "manifest": "https://crkn-rcdr.github.io/crkn-iiif-static/iiif/exhibit1.json"
+          "id": "1",
+          "type": "iiifImage",
+          "imageEndpoint": "https://image-tor.canadiana.ca/iiif/2/69429%2Fc0c824f1tm3q/info.json"
+        },
+        {
+          "id": "2",
+          "type": "iiifImage",
+          "imageEndpoint": "https://iiif.archive.org/image/iiif/3/cihm_00333%2Fcihm_00333_jp2.zip%2Fcihm_00333_jp2%2Fcihm_00333_0004.jp2/info.json"
         }
-    ],
-    
+    ],  
     "scenes": [
         {
             "source": "1",
             "caption": {
-                "text": "This is a map made by John Speed"
+              "title": "Map",
+              "text": "Map of the island"
+            }
+        },
+        {
+            "source": "2",
+            "caption": {
+              "title": "Log runner",
+              "text": "A log runner [Click here to see live footage!](https://www.youtube.com/watch?v=wJu7G7bX5i0)"
             }
         }
     ]
