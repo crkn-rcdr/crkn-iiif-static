@@ -1,0 +1,272 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/1ogq0gd7y31-lzbc5do8",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Blank Manifest"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/1ogq0gd7y31-lzbc5do8/canvas/p5ekak32meg-lzbc5w8p",
+      "type": "Canvas",
+      "height": 2871,
+      "width": 1678,
+      "label": {
+        "en": [
+          "Log Runner"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/1ogq0gd7y31-lzbc5do8/canvas/p5ekak32meg-lzbc5w8p/annotation-page/cqenaungz1o-lzbc5w8p",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/1ogq0gd7y31-lzbc5do8/annotation/ro1hsbqc86-lzbc5w8o",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/1ogq0gd7y31-lzbc5do8/canvas/p5ekak32meg-lzbc5w8p",
+              "body": {
+                "id": "https://iiif.archive.org/image/iiif/3/cihm_00333%2Fcihm_00333_jp2.zip%2Fcihm_00333_jp2%2Fcihm_00333_0004.jp2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2871,
+                "width": 1678,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "id": "https://iiif.archive.org/image/iiif/3/cihm_00333%2Fcihm_00333_jp2.zip%2Fcihm_00333_jp2%2Fcihm_00333_0004.jp2",
+                    "type": "ImageService3",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": "level2",
+                    "width": 1678,
+                    "height": 2871,
+                    "maxArea": 4817538,
+                    "sizes": [
+                      {
+                        "width": 105,
+                        "height": 179
+                      },
+                      {
+                        "width": 210,
+                        "height": 359
+                      },
+                      {
+                        "width": 420,
+                        "height": 718
+                      },
+                      {
+                        "width": 839,
+                        "height": 1436
+                      },
+                      {
+                        "width": 1678,
+                        "height": 2871
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16
+                        ]
+                      }
+                    ],
+                    "extraQualities": [
+                      "bitonal",
+                      "color",
+                      "gray"
+                    ],
+                    "extraFormats": [
+                      "tif",
+                      "gif"
+                    ],
+                    "extraFeatures": [
+                      "baseUriRedirect",
+                      "canonicalLinkHeader",
+                      "cors",
+                      "jsonldMediaType",
+                      "mirroring",
+                      "profileLinkHeader",
+                      "regionByPct",
+                      "regionByPx",
+                      "regionSquare",
+                      "rotationArbitrary",
+                      "rotationBy90s",
+                      "sizeByConfinedWh",
+                      "sizeByH",
+                      "sizeByPct",
+                      "sizeByW",
+                      "sizeByWh"
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/1ogq0gd7y31-lzbc5do8/canvas/p5ekak32meg-lzbc5w8p/annotations/a78ypzdnmci-lzbc7fth",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/1ogq0gd7y31-lzbc5do8/canvas/p5ekak32meg-lzbc5w8p/annotations/a78ypzdnmci-lzbc7fth/annotation/jd5itg5spbd-lzbcioqp",
+              "type": "Annotation",
+              "label": {
+                "en": [
+                  "<a href=\"https://www.youtube.com/watch?v=wJu7G7bX5i0\">Click to see live</a>"
+                ]
+              },
+              "summary": {
+                "en": [
+                  ""
+                ]
+              },
+              "motivation": "describing",
+              "target": "https://example.org/1ogq0gd7y31-lzbc5do8/canvas/p5ekak32meg-lzbc5w8p#xywh=177,400,1319,2179",
+              "body": {
+                "id": "https://example.org/1ogq0gd7y31-lzbc5do8/canvas/p5ekak32meg-lzbc5w8p/annotations/a78ypzdnmci-lzbc7fth/annotation/jd5itg5spbd-lzbcioqp/html/en/35ol76375oy-lzbcioqp",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<span>&lt;a href=&quot;https://www.youtube.com/watch?v=wJu7G7bX5i0&quot;&gt;Click to see live&lt;/a&gt;</span>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/1ogq0gd7y31-lzbc5do8/canvas/domhni4gj38-lzbc6f96",
+      "type": "Canvas",
+      "height": 7660,
+      "width": 10820,
+      "label": {
+        "en": [
+          "Map"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/1ogq0gd7y31-lzbc5do8/canvas/domhni4gj38-lzbc6f96/annotation-page/34e1ihy8kj6-lzbc6f96",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/1ogq0gd7y31-lzbc5do8/annotation/bixi2hvd9mu-lzbc6f96",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/1ogq0gd7y31-lzbc5do8/canvas/domhni4gj38-lzbc6f96",
+              "body": {
+                "id": "https://image-tor.canadiana.ca/iiif/2/69429%2Fc0c824f1tm3q/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 7660,
+                "width": 10820,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://image-tor.canadiana.ca/iiif/2/69429%2Fc0c824f1tm3q",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 10820,
+                    "height": 7660,
+                    "sizes": [
+                      {
+                        "width": 169,
+                        "height": 120
+                      },
+                      {
+                        "width": 338,
+                        "height": 239
+                      },
+                      {
+                        "width": 676,
+                        "height": 479
+                      },
+                      {
+                        "width": 1353,
+                        "height": 958
+                      },
+                      {
+                        "width": 2705,
+                        "height": 1915
+                      },
+                      {
+                        "width": 5410,
+                        "height": 3830
+                      },
+                      {
+                        "width": 10820,
+                        "height": 7660
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level1.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "maxArea": 82881200,
+                        "qualities": [
+                          "bitonal",
+                          "default",
+                          "gray",
+                          "color"
+                        ],
+                        "supports": [
+                          "regionByPx",
+                          "sizeByW",
+                          "sizeByWhListed",
+                          "cors",
+                          "regionSquare",
+                          "sizeByDistortedWh",
+                          "canonicalLinkHeader",
+                          "sizeByConfinedWh",
+                          "sizeByPct",
+                          "jsonldMediaType",
+                          "regionByPct",
+                          "rotationArbitrary",
+                          "sizeByH",
+                          "baseUriRedirect",
+                          "rotationBy90s",
+                          "profileLinkHeader",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "mirroring"
+                        ]
+                      }
+                    ],
+                    "id": "https://image-tor.canadiana.ca/iiif/2/69429%2Fc0c824f1tm3q"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
